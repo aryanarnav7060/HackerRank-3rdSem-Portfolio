@@ -24,43 +24,55 @@ Students must complete all 5 mandatory problems on HackerRank [cite: 1.2.2, 1.2.
 ## Repository Structure
 ```
 HackerRank-3rdSem-Portfolio/
-├── README.md
-├── problems/
-│   ├── problem-01-array-basics/
+├ README.md
+├ problems/
+│   ├── problem-01-diagonal-difference/
 │   │   ├── solution.cpp
 │   │   ├── solution.java
 │   │   └── solution.py
-│   ├── problem-02-linked-list/
+│   ├── problem-02-dynamic-array/
 │   │   ├── solution.cpp
 │   │   ├── solution.java
 │   │   └── solution.py
-│   ├── problem-03-stack-queue/
+│   ├── problem-03-time-conversion/
 │   │   ├── solution.cpp
 │   │   ├── solution.java
 │   │   └── solution.py
-│   ├── problem-04-trees/
+│   ├── problem-04-compare-triplets/
 │   │   ├── solution.cpp
 │   │   ├── solution.java
 │   │   └── solution.py
-│   └── problem-05-hashing/
+│   └── problem-05-sparse-arrays/
 │       ├── solution.cpp
 │       ├── solution.java
 │       └── solution.py
-├── .github/
+├ .github/
 │   └── workflows/
 │       └── hackerrank-badges.yml
-└── requirements.txt
+├── requirements.txt
 ```
 
 ## Badge Verification
 - **Required**: Verified 3-Star HackerRank badge and public profile link included [cite: 1.1.3]
-- **Profile**: HackerRank profile must be linked with target badge milestone met
-- **Verification**: Ensure submissions are verified and profile is public
+- **Profile**: https://www.hackerrank.com/profile/aryanarnav7060
+- **Verification**: Ensure submissions are verified and profile is public; badge milestone: 3-Star or higher in Problem Solving/Python/Java/C++
+
+## HackerRank Profile
+Visit your public profile: [https://www.hackerrank.com/profile/aryanarnav7060](https://www.hackerrank.com/profile/aryanarnav7060)
+
+## Mandatory Problem Set
+| # | Problem Name | Topic / Category | Key Concept Evaluated | Target Complexity |
+|---|-------------|------------------|----------------------|-------------------|
+| 1 | Diagonal Difference | 2D Arrays / Matrices | Matrix traversal, primary/secondary diagonal sum | O(N) |
+| 2 | Dynamic Array | Data Structures / Vectors | 2D nested sequence manipulation, bitwise XOR | O(N + Q) |
+| 3 | Time Conversion | Strings & Logic | 12-hour AM/PM to 24-hour military time formatting | O(1) |
+| 4 | Compare the Triplets | Basic Implementation | Element-wise comparison & score tracking | O(1) |
+| 5 | Sparse Arrays | Hash Maps / Strings | Frequency mapping, string matching efficiency | O(N + Q) |
 
 ## Performance Metrics
 | Metric | Target |
 |--------|--------|
-| Time Complexity | O(N) optimization |
+| Time Complexity | Varies by problem (O(1) to O(N+Q)) |
 | Space Complexity | Minimal auxiliary space |
 | Code Quality | Well-documented, clean formatting |
 | Badge Milestone | 3-Star or higher |
@@ -77,3 +89,11 @@ HackerRank-3rdSem-Portfolio/
 5. Achieve 3-Star badge on HackerRank
 6. Update your public profile link
 7. Submit via the studio activity portal
+
+## 2-Page PDF Report
+Submit a 2-page PDF report containing:
+- GitHub repository link: `HackerRank-3rdSem-Portfolio`
+- HackerRank profile URL: https://www.hackerrank.com/profile/aryanarnav7060
+- Screenshots of 'Accepted' submissions and earned HackerRank badges
+- Summary table listing Time & Space Complexity analysis for each problem
+- Brief 200-word reflective summary on algorithmic optimization techniques learned
